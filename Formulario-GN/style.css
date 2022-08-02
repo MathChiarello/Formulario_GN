@@ -1,0 +1,52 @@
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right , rgb(46, 130, 178) , rgb(17,54,71));
+}
+
+.box{
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+
+fieldset{
+    border: 3px solid dodgerblue;
+}
+
+
+legend{
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+   
+    pointer-events: none;
+    transition: .5s;
+}
